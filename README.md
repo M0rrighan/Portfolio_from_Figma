@@ -1,76 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
-> One paragraph statement about the project.
+> Assigment from Microverse: Copy of a Portfolio design from Figma Template
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./screenshot.here)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS (using Flex and Grid)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://livelink)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**To clone this project**
+**Run command: $git clone git@github.com:M0rrighan/Portfolio_from_Figma.git**
+**or press the green Code button in the upper right corner and choose to download from the Download ZIP link.**
 
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Code editor (VS Code, Sublime, Atom)
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@M0rrighan](https://github.com/M0rrighan)
+- Twitter: [@RadmilaStojceva](https://twitter.com/RadmilaStojceva)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
