@@ -35,7 +35,7 @@ a {
   cursor: pointer;
 }
 
-/* header start */
+/* header  */
 header {
   display: flex;
   justify-content: space-between;
@@ -68,9 +68,8 @@ header {
 .menu {
   margin-right: 24px;
 }
-/* header end */
 
-/* start headline section */
+/* headline section */
 .headline {
   display: flex;
   flex-direction: column;
@@ -95,10 +94,13 @@ h1 {
   line-height: 52px;
 }
 
+h1 span {
+  display: block;
+}
+
 .social {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
-/* end headline section */
