@@ -11,10 +11,6 @@
 - HTML
 - CSS (using Flex and Grid)
 
-## Live Demo
-
-[Live Demo Link](https://livelink)
-
 ## Getting Started
 
 **To clone this project**
