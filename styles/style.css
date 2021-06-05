@@ -15,8 +15,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  width: vw;
-  /* width: 375px; */
+  width: 100vw;
 }
 
 * a {
@@ -32,7 +31,7 @@ body {
 }
 
 .bottom_0 {
-  bottom: 0px;
+  bottom: 0;
 }
 
 .btn {
@@ -145,14 +144,6 @@ h2 {
   background-position: center;
 }
 
-.recent_work h1,
-.about.info h1 {
-  padding: 0 24px;
-  font-size: 40px;
-  line-height: 52px;
-  font-weight: 700;
-}
-
 .work_cards {
   display: grid;
   grid-template-columns: repeat(1, 100%);
@@ -192,6 +183,14 @@ h2 {
   font-size: 24px;
   line-height: 32px;
   color: #3a4a42;
+}
+
+.recent_work h1,
+.about.info h1 {
+  padding: 0 24px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
 }
 
 .card_btn {
@@ -242,6 +241,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
-.about.info p {
+.about .info p {
   line-height: 32px;
 }
