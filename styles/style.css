@@ -178,19 +178,18 @@ h2 {
   width: 100%;
 }
 
+.recent_work h1 {
+  padding: 0 24px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
 .card_details h1 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #3a4a42;
-}
-
-.recent_work h1,
-.about.info h1 {
-  padding: 0 24px;
-  font-size: 40px;
-  line-height: 52px;
-  font-weight: 700;
 }
 
 .card_btn {
@@ -240,6 +239,13 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.about .info h1 {
+  padding: 0 24px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
 }
 
 .about .info p {
