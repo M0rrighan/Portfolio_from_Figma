@@ -15,11 +15,24 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  width: 375px;
+  width: vw;
+  /* width: 375px; */
 }
 
-a {
+* a {
   text-decoration: none;
+}
+
+* li {
+  list-style-type: none;
+}
+
+.abs {
+  position: absolute;
+}
+
+.bottom_0 {
+  bottom: 0px;
 }
 
 .btn {
@@ -103,13 +116,132 @@ h2 {
   color: #36b37e;
 }
 
-h1 span {
-  display: block;
-}
-
 .social {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+
+/* work & about section */
+.recent_work {
+  top: -110px;
+}
+
+.about {
+  top: -64px;
+}
+
+.section {
+  padding-top: 64px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.indicator {
+  margin: 2px;
+  background-image: url("../back-img/Indicator.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.recent_work h1,
+.about.info h1 {
+  padding: 0 24px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.work_cards {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-row-gap: 24px;
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 64px;
+  width: 88%;
+}
+
+.card {
+  height: 474px;
+  background-color: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  position: relative;
+}
+
+.card_img {
+  height: 100%;
+  width: 100%;
+}
+
+.card_details {
+  height: 222px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.card_details h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.card_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+.tag_btn {
+  padding: 8px 12px;
+  background-color: #ebf0ee;
+}
+
+.tag_txt {
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.act_btn {
+  padding: 12px;
+  background-color: #36b37f;
+}
+
+.act_txt {
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.info {
+  height: 333px;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.about.info p {
+  line-height: 32px;
 }
